@@ -1,3 +1,4 @@
 .env
 venv
 __pycache__
+go_phish_troll.py
