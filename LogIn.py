@@ -31,13 +31,6 @@ def ucla_login(driver):
 
 
 
-def reload_class(driver):
-    driver.get("https://sa.ucla.edu/ro/ClassSearch/Results?SubjectAreaName=Computer+Science+(COM+SCI)&CrsCatlgName=143+-+Data+Management+Systems&t=26S&sBy=subject&subj=COM+SCI&catlg=0143&cls_no=%25&undefined=Go&btnIsInIndex=btn_inIndex")
-    wait = WebDriverWait(driver, 10)
-    
-    time.sleep(200)
-    print("done")
-
 
 
 
