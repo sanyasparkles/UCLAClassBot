@@ -22,7 +22,6 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 try:
     ucla_login(driver)
     driver.minimize_window()
-    # check_for_open_spots(driver, "MATH 170E", "https://sa.ucla.edu/ro/ClassSearch/Results?SubjectAreaName=Mathematics+(MATH)&CrsCatlgName=170E+-+Introduction+to+Probability+and+Statistics+1%3A+Probability&t=26S&sBy=subject&subj=MATH+++&catlg=0170E&cls_no=%25&undefined=Go&btnIsInIndex=btn_inIndex")
     check_for_open_spots(driver, "COM SCI 143", "https://sa.ucla.edu/ro/ClassSearch/Results?SubjectAreaName=Computer+Science+(COM+SCI)&CrsCatlgName=143+-+Data+Management+Systems&t=26S&sBy=subject&subj=COM+SCI&catlg=0143&cls_no=%25&undefined=Go&btnIsInIndex=btn_inIndex")
     
 
