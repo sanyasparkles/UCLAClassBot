@@ -2,3 +2,6 @@
 venv
 __pycache__
 go_phish_troll.py
+dataannotation.py
+db.js
+auth.js
